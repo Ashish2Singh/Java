@@ -4,7 +4,7 @@ public class binarytodecimal{
         int pow=0;
         while(n>0){
             int lastdigit=n % 10;
-            sum=sum + (lastdigit *((int)Math.pow(2,pow)));
+            sum+= (lastdigit *((int)Math.pow(2,pow)));
             n/=10;
             pow++;
         // for(int i=0;n>0;i++){
