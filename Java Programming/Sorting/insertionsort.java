@@ -1,15 +1,14 @@
 public class insertionsort{
     public static void insertionSort(int arr[]){
         for(int i=1;i<arr.length;i++){
-            int curr =arr[i];
-            int prev=i-1;
             // finding out the correct pos to insert
-            while(prev>=0 && arr[prev]> curr){
-                arr[prev+1]=arr[prev];
-                prev--;
+            int j=i;
+            while(j>0 && arr[j]<arr[j-1]){
+                int temp=arr[j];
+                arr[j]=arr[j-1];
+                arr[j-1]=temp;
+                j--;
             }
-            // insertion
-            arr[prev+1]=curr;
         }
     }
     public static void print(int arr[]){
