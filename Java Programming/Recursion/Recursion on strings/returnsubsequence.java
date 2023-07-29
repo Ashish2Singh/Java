@@ -1,6 +1,7 @@
-public class returnsubsequence{{
+import java.util.*;
+public class returnsubsequence{
     static  ArrayList<String> getSSQ(String s){
-        ArrayList<String> ans= new ArrayList();
+        ArrayList<String> ans= new ArrayList<>();
         if(s.length()==0){
             ans.add("");
             return ans;
@@ -11,12 +12,11 @@ public class returnsubsequence{{
             ans.add(ss);
             ans.add(curr+ss);
         }
+        return ans;
     }
-    return ans;
-}
-    public static coid main(String args[]){
-        ArrayList<String> ans="abc";
-        System.out.print(getSSQ(s));
+    public static void main(String args[]){
+        String ans="abc";
+        System.out.print(getSSQ(ans));
 
     }
 }

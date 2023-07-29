@@ -1,5 +1,5 @@
 import java.util.*;
-public class palindrome{
+public class palindromeString{
     public static String reverse(String str,int index){
         if(index==str.length())
         {

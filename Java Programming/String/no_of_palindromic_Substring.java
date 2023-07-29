@@ -31,7 +31,7 @@ public class no_of_palindromic_Substring {
         */
 
         // 2nd process
-        // the both process ar for the palindrome not for counting the palindromicsubstring
+        // the both process are for the palindrome not for counting the palindromicsubstring
         
        /*  int i=0;
         int j= str.length()-1;
@@ -54,7 +54,7 @@ public class no_of_palindromic_Substring {
         */
         // counting the number of palindromic substring
 
-        String str="abbd";
+        String str="abbcd";
         int count=0;
 
         for(int i=0;i<=str.length();i++){
