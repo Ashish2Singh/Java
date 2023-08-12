@@ -1,3 +1,4 @@
+package Prefix_Sum_Approach;
 // Given an integer array 'a', return the prefix sum/running sum in the same array without creating a new array
 import java.util.*;
 public class returnThePrefixSum {
